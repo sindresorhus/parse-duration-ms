@@ -1,0 +1,49 @@
+{
+	"name": "parse-duration-ms",
+	"version": "0.0.0",
+	"description": "Parse duration strings to milliseconds",
+	"license": "MIT",
+	"repository": "sindresorhus/parse-duration-ms",
+	"funding": "https://github.com/sponsors/sindresorhus",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "https://sindresorhus.com"
+	},
+	"type": "module",
+	"exports": {
+		"types": "./index.d.ts",
+		"default": "./index.js"
+	},
+	"sideEffects": false,
+	"engines": {
+		"node": ">=20"
+	},
+	"scripts": {
+		"test": "xo && node --test"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"keywords": [
+		"parse",
+		"duration",
+		"time",
+		"milliseconds",
+		"ms",
+		"convert",
+		"parser",
+		"human",
+		"readable",
+		"string",
+		"text",
+		"hours",
+		"minutes",
+		"seconds",
+		"days"
+	],
+	"devDependencies": {
+		"xo": "^1.2.2"
+	}
+}
